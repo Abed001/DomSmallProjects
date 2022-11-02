@@ -1,0 +1,90 @@
+body{
+    margin:0;
+
+}
+
+.top-container{
+    background-image: url(https://images.unsplash.com/photo-1563191911-e65f8655ebf9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8a2V5Ym9hcmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.top-container h1{
+    color: white;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.text{
+    font-family: sans-serif;
+    margin: 50px 5%;
+}
+
+.nav{
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+    align-items: center ;
+    display: flex;
+    position: fixed;
+    justify-content: space-between  ;
+    background-color: white;
+    width: 100%;
+    transition:  background-color 0.4s;
+    
+
+    
+}
+
+.nav ul{
+    display: flex;
+    list-style-type: none;
+  
+}
+
+.nav h1{
+   margin:0 10px;
+   font-family: cursive;
+  
+}
+
+.nav a{
+ text-decoration: none;
+ color: orangered;
+ }
+
+
+.nav ul li a{
+    font-family:cursive;
+    color: black;
+    margin:0 10px;
+    text-decoration: none;
+}
+
+.nav ul li a:hover{
+  color: red;
+}
+
+.nav.active{
+    background-color: black;
+
+}
+
+
+.nav.active ul li a{
+    color: white;
+}
+
+.nav.active ul li a:hover{
+    color: red;
+}
+
+
+
+
+
